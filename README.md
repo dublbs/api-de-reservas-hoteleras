@@ -3,7 +3,7 @@
 API de Reservas de Hoteles 🏨
 Este proyecto es una API RESTful construida con Node.js y Express para la gestión de reservas de hoteles. Fue desarrollada como parte de un bootcamp para demostrar la implementación de operaciones CRUD, filtrado avanzado y documentación de API.
 
-✨ Características Principales
+Características Principales
 La API permite realizar operaciones CRUD completas y ofrece 6 endpoints de filtrado para una gestión de datos robusta.
 
 Operaciones CRUD
@@ -17,7 +17,7 @@ PUT /api/reservas/:id: Actualiza una reserva existente por su ID.
 
 DELETE /api/reservas/:id: Elimina una reserva por su ID.
 
-⚡ Filtros Avanzados (Query Params)
+Filtros Avanzados (Query Params)
 El endpoint GET /api/reservas soporta los siguientes parámetros de consulta (query params) para filtrar resultados, los cuales se pueden combinar:
 
 ?hotel=...: Filtra por el nombre del hotel.
@@ -30,7 +30,7 @@ El endpoint GET /api/reservas soporta los siguientes parámetros de consulta (qu
 
 ?fecha_inicio=...&fecha_fin=...: Filtra por reservas que se solapan (chocan) con un rango de fechas específico.
 
-🛠️ Tecnologías Utilizadas
+Tecnologías Utilizadas
 Node.js: Entorno de ejecución de JavaScript del lado del servidor.
 
 Express: Framework para la construcción de APIs y aplicaciones web.
@@ -43,7 +43,7 @@ swagger-jsdoc: Para generar la especificación OpenAPI desde comentarios JSDoc.
 
 swagger-ui-express: Para servir la documentación interactiva de la API.
 
-🚀 Instalación y Ejecución
+Instalación y Ejecución
 Sigue estos pasos para levantar el proyecto en tu máquina local:
 
 1. descargar el repositorio y ejecutar
